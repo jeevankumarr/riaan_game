@@ -1,0 +1,27 @@
+name: riaan-game
+channels:
+  - defaults
+dependencies:
+  - bzip2
+  - ca-certificates
+  - expat
+  - libcxx
+  - libffi
+  - libmpdec
+  - ncurses
+  - openssl
+  - pip
+  - python
+  - python_abi
+  - readline
+  - setuptools
+  - sqlite
+  - tk
+  - tzdata
+  - wheel
+  - xz
+  - zlib
+  - pip:
+    - numpy
+    - pygame
+prefix: /Users/jeevankr/anaconda3/envs/riaan-game
