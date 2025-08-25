@@ -1,1 +1,1 @@
-![til](./riaan_game.png)
+![til](./riaan_game.gif)
