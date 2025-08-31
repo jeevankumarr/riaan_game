@@ -41,7 +41,8 @@ def move_stars(screen, stars, start, end, direction):
             if (stars[loop][0] != screen.get_width() - 1):
                 stars[loop][0] = stars[loop][0] + 1
             else:
-                stars[loop][1] = random.randrange(0, screen.get_height() - 1)
+                stars[loop][1] = r
+                andom.randrange(0, screen.get_height() - 1)
                 stars[loop][0] = 1
 
     return stars
@@ -114,4 +115,5 @@ while running:
     pygame.display.flip()
 
 # Quit Pygame
+
 pygame.quit()
